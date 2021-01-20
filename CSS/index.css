@@ -1,0 +1,16 @@
+/*settings*/
+@import "reset.css";
+
+/*Component*/
+@import "Component/nav-bar.css";
+
+body {
+  height: 300vh;
+}
+
+main {
+  background-color: wheat;
+  margin-top: 45px;
+  width: 100%;
+  height: 100%;
+}
