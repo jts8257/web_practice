@@ -1,4 +1,4 @@
-#navbar {
+#navbar_row-show {
   background-color: rgba(3, 3, 3, 0.7); /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
@@ -9,12 +9,12 @@
   align-items: center;
 }
 
-#navbar:hover {
+#navbar_row-show:hover {
   background-color: rgba(3, 3, 3, 1);
 }
 
 /* Style the navbar links */
-#navbar .navbar__content {
+#navbar_row-show .navbar__content {
   float: left;
   color: white;
   text-align: center;
@@ -55,10 +55,14 @@
   font-weight: 550;
 }
 
-#navbar div:last-child {
+#navbar_row-show div:last-child {
   position: relative;
 }
 
 .navbar__search {
   padding: 2px 2px;
+}
+
+#navbar_row-hide{
+  display: :none;
 }

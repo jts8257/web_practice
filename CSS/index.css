@@ -2,7 +2,7 @@
 @import "reset.css";
 
 /*Component*/
-@import "Component/nav-bar.css";
+@import "Component/navbar.css";
 
 body {
   height: 300vh;
